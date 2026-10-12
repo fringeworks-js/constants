@@ -1,3 +1,3 @@
 # @fringeworks/constants
 
-A niche library for well-typed shared constants.
+`@fringeworks/constants` is a library some will find handy, providing well-typed shared constants.
