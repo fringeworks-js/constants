@@ -1,20 +1,24 @@
 /**
  * undefinedを示すシンボル
+ * @deprecated 0.9.0 で終了。後継はなく、必要なら独自のシンボルを定義する
  */
 export const SYMBOL_UNDEFINED = Symbol('undefined');
 
 /**
  * nullを示すシンボル
+ * @deprecated 0.9.0 で終了。後継はなく、必要なら独自のシンボルを定義する
  */
 export const SYMBOL_NULL = Symbol('null');
 
 /**
  * 空文字を示すシンボル
+ * @deprecated 0.9.0 で終了。後継はなく、必要なら独自のシンボルを定義する
  */
 export const SYMBOL_EMPTY = Symbol('');
 
 /**
  * Object.prototype.toString.call(value)の結果
+ * @deprecated `@fringeworks/types` の `ToStringResult` を使う
  */
 export const ToStringResult = {
   Undefined: '[object Undefined]',
@@ -59,6 +63,7 @@ export type ToStringResult =
 
 /**
  * typeofの結果の型
+ * @deprecated `@fringeworks/types` の `TypeOfResult` を使う
  */
 export const TypeOfResult = {
   undefined: 'undefined',
